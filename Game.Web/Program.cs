@@ -1,3 +1,14 @@
+using Game.Web.Models;
+
+// Create the ActorSystem
+GameActorSystem.Create();
+
+// Shutdown the ActorSystem when the application exits
+AppDomain.CurrentDomain.ProcessExit += (s, e) => 
+{
+    GameActorSystem.Shutdown();
+};
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

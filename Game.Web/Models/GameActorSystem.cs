@@ -13,7 +13,7 @@ public static class GameActorSystem
         // instance of actor system
 
         ActorReferences.GameController = _actorSystem.ActorOf<GameControllerActor>(); 
-        // reference to player actors in the system. it is a good practice to keep the reference to actors in a static class
+        // reference to player actors in the system. it is a good practice to keep the reference to actors in a dedicated class
     }
     
     public static void Shutdown()
