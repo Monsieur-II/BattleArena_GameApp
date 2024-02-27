@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameApp.ActorModel", "GameApp.ActorModel\GameApp.ActorModel.csproj", "{A51CF844-0A9A-412C-85C2-3E6B40B6AD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Web", "Game.Web\Game.Web.csproj", "{492B73D6-DDB3-4B8D-B2B8-7E03471F3147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51CF844-0A9A-412C-85C2-3E6B40B6AD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51CF844-0A9A-412C-85C2-3E6B40B6AD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51CF844-0A9A-412C-85C2-3E6B40B6AD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51CF844-0A9A-412C-85C2-3E6B40B6AD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492B73D6-DDB3-4B8D-B2B8-7E03471F3147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492B73D6-DDB3-4B8D-B2B8-7E03471F3147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492B73D6-DDB3-4B8D-B2B8-7E03471F3147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492B73D6-DDB3-4B8D-B2B8-7E03471F3147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

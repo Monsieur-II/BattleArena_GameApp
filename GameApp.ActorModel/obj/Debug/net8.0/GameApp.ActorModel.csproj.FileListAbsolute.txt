@@ -1,0 +1,12 @@
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/bin/Debug/net8.0/GameApp.ActorModel.deps.json
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/bin/Debug/net8.0/GameApp.ActorModel.dll
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/bin/Debug/net8.0/GameApp.ActorModel.pdb
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.csproj.AssemblyReference.cache
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.AssemblyInfoInputs.cache
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.AssemblyInfo.cs
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.csproj.CoreCompileInputs.cache
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.dll
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/refint/GameApp.ActorModel.dll
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/GameApp.ActorModel.pdb
+/Users/monsieur/Desktop/HelloWorld/Projects/Dotnet/GameApp/GameApp.ActorModel/obj/Debug/net8.0/ref/GameApp.ActorModel.dll
