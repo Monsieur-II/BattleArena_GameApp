@@ -17,7 +17,7 @@ public class GameControllerActor : ReceiveActor
             message =>
             {
                 _players[message.PlayerName].Forward(message);
-                // Forward method maintains the original sender of the message
+                // Forward method maintains the original sender of the message (signalrbridgeactor)
             });
     }
 
@@ -33,7 +33,7 @@ public class GameControllerActor : ReceiveActor
 
             foreach (var player in _players.Values)
             {
-                player.Tell(new RefreshPlayerStatusMessage(), Sender); // Sender here is signalR actor
+                player.Tell(new RefreshPlayerStatusMessage(), Sender); // Sender here is signalR bridge actor
             }
         }
     }

@@ -1,4 +1,5 @@
 using Game.Web.Models;
+using Owin;
 
 // Create the ActorSystem
 GameActorSystem.Create();
@@ -13,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -34,5 +36,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapHub<>()
+
 
 app.Run();

@@ -22,3 +22,22 @@
     <h2>Other Players</h2>
     Todo list all other players
 </div>
+
+@section Scripts {
+    <script>
+        let connection = new signalR.HubConnectionBuilder()
+            .withUrl("/gamehub")
+            .build();
+        
+        connection.on("PlayerJoined", (playerName, health) => {
+            // todo add player to list
+        });
+        
+        connection.on("UpdatePlayerHealth", (playerName, health) => {
+            // todo update player health
+        });
+        
+        connection.start();
+            
+    </script>
+}

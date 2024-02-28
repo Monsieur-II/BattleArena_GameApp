@@ -12,6 +12,7 @@
 
     <ItemGroup>
       <PackageReference Include="Akka" Version="1.5.16" />
+      <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
     </ItemGroup>
 
 </Project>
